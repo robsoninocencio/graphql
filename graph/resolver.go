@@ -1,7 +1,7 @@
 package graph
 
 //go:generate go run github.com/99designs/gqlgen
-import "github.com/codeedu/fc2-graphql/graph/model"
+import "github.com/robsoninocencio/graphql/graph/model"
 
 // This file will not be regenerated automatically.
 //

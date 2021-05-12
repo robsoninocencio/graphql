@@ -35,7 +35,7 @@ resolver:
 # gqlgen will search for any type names in the schema in these go packages
 # if they match it will use them, otherwise it will generate them.
 autobind:
-  - "github.com/codeedu/fc2-graphql/graph/model"
+  - "github.com/robsoninocencio/graphql/graph/model"
 
 # This section declares type mapping between the GraphQL and go type systems
 #
@@ -44,11 +44,11 @@ autobind:
 # your liking
 models:
   Category:
-    model: github.com/codeedu/fc2-graphql/graph/model.Category
+    model: github.com/robsoninocencio/graphql/graph/model.Category
   Course:
-    model: github.com/codeedu/fc2-graphql/graph/model.Course
+    model: github.com/robsoninocencio/graphql/graph/model.Course
   Chapter:
-    model: github.com/codeedu/fc2-graphql/graph/model.Chapter
+    model: github.com/robsoninocencio/graphql/graph/model.Chapter
   ID:
     model:
       - github.com/99designs/gqlgen/graphql.ID
