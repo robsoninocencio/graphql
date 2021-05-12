@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    container_name: go_graphql
+    volumes:
+      - .:/go/src/
+    extra_hosts:
+      - "host.docker.internal:192.168.100.5"
