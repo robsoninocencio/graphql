@@ -3,9 +3,8 @@ version: "3"
 services:
   app:
     build: .
-    container_name: go_graphql
     ports:
-      - "8080:80"
+      - "8080:8080"
     volumes:
       - .:/go/src/
 
