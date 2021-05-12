@@ -4,8 +4,7 @@ services:
   app:
     build: .
     container_name: go_graphql
-    ports:
-      - "8080:80"
     volumes:
       - .:/go/src/
-
+    extra_hosts:
+      - "host.docker.internal:192.168.100.5"
